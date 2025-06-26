@@ -1,4 +1,3 @@
-
 package render
 
 import (
@@ -244,8 +243,7 @@ func TestDefaultValues(t *testing.T) {
 				t.Errorf("DefaultValues() error = %v, wantErr %v", err, tc.wantErr)
 			}
 			if diff := cmp.Diff(tc.want, tc.args.xr); diff != "" {
-				t.Errorf("DefaultValues() mismatch (-want +got):
-%s", diff)
+				t.Errorf("DefaultValues() mismatch (-want +got): %s", diff)
 			}
 		})
 	}

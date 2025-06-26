@@ -20,10 +20,10 @@ package apiextensions
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	v1 "github.com/crossplane/crossplane/apis/apiextensions/v1"
-	"github.com/crossplane/crossplane/apis/apiextensions/v1alpha1"
-	"github.com/crossplane/crossplane/apis/apiextensions/v1beta1"
-	"github.com/crossplane/crossplane/apis/apiextensions/v2alpha1"
+	v1 "github.com/cychiang/crossplane-render/apis/apiextensions/v1"
+	"github.com/cychiang/crossplane-render/apis/apiextensions/v1alpha1"
+	"github.com/cychiang/crossplane-render/apis/apiextensions/v1beta1"
+	"github.com/cychiang/crossplane-render/apis/apiextensions/v2alpha1"
 )
 
 func init() {
