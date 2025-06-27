@@ -38,9 +38,9 @@ import (
 
 	"github.com/crossplane/crossplane-runtime/pkg/resource/unstructured/composed"
 	ucomposite "github.com/crossplane/crossplane-runtime/pkg/resource/unstructured/composite"
-	fnv1 "github.com/crossplane/crossplane/apis/apiextensions/fn/proto/v1"
-	apiextensionsv1 "github.com/crossplane/crossplane/apis/apiextensions/v1"
-	pkgv1 "github.com/crossplane/crossplane/apis/pkg/v1"
+	fnv1 "github.com/cychiang/crossplane-render/apis/apiextensions/fn/proto/v1"
+	apiextensionsv1 "github.com/cychiang/crossplane-render/apis/apiextensions/v1"
+	pkgv1 "github.com/cychiang/crossplane-render/apis/pkg/v1"
 	"github.com/cychiang/crossplane-render/internal/controller/apiextensions/composite"
 )
 

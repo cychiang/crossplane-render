@@ -21,7 +21,7 @@ package v1beta1
 import (
 	xpv1 "github.com/crossplane/crossplane-runtime/apis/common/v1"
 
-	"github.com/crossplane/crossplane/internal/protection"
+	"github.com/cychiang/crossplane-render/internal/protection"
 )
 
 // GetUserOf gets the resource this ClusterUsage indicates a use of.

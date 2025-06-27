@@ -3,7 +3,7 @@
 
 package v1beta1
 
-import protection "github.com/crossplane/crossplane/internal/protection"
+import protection "github.com/cychiang/crossplane-render/internal/protection"
 
 type GeneratedNamespacedResourceConverter struct{}
 

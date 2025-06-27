@@ -16,6 +16,6 @@ limitations under the License.
 
 package v1beta1
 
-import "github.com/crossplane/crossplane/internal/protection"
+import "github.com/cychiang/crossplane-render/internal/protection"
 
 var _ protection.Usage = &ClusterUsage{}

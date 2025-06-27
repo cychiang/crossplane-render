@@ -20,9 +20,9 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/crossplane/crossplane/apis/apiextensions"
-	"github.com/crossplane/crossplane/apis/pkg"
-	"github.com/crossplane/crossplane/apis/protection"
+	"github.com/cychiang/crossplane-render/apis/apiextensions"
+	"github.com/cychiang/crossplane-render/apis/pkg"
+	"github.com/cychiang/crossplane-render/apis/protection"
 )
 
 func init() {

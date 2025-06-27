@@ -22,7 +22,7 @@ import (
 
 	"github.com/crossplane/crossplane-runtime/pkg/errors"
 
-	v1 "github.com/crossplane/crossplane/apis/pkg/meta/v1"
+	v1 "github.com/cychiang/crossplane-render/apis/pkg/meta/v1"
 )
 
 const (
