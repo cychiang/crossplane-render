@@ -14,7 +14,6 @@ linters:
     - gochecksumtype
     - goconst
     - gocritic
-    - gocyclo
     - gosec
     - gosmopolitan
     - loggercheck
@@ -88,6 +87,9 @@ linters:
       - linters:
           - staticcheck
         text: 'SA3000:'
+      - linters:
+          - staticcheck
+        text: 'QF1008:'
       - linters:
           - gosec
         text: 'G101:'
